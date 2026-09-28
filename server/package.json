@@ -1,0 +1,19 @@
+{
+  "name": "devpulse-server",
+  "version": "1.0.0",
+  "description": "Backend API engine for DevPulse telemetry and health monitoring",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": ["devpulse", "telemetry", "api-monitoring", "microservices"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
